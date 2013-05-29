@@ -1,0 +1,12 @@
+apply plugin: "java"
+apply plugin: "application"
+apply plugin: "idea"
+
+mainClassName = "test.Encryption"
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'commons-codec:commons-codec:1.5'
+}
